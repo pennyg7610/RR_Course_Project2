@@ -16,6 +16,10 @@ The basic goal of this assignment is to explore the NOAA Storm Database and answ
 
 ## Synopsis
 
+Based on the data obtained from the NOAA Storm Database tornadoes are identified as the most harmful with respect to population health. The data reflects that tornadoes rank at the top for severe weather events that cause human injuries and fatalities.
+The weather event that has the greatest economic consequences are floods followed by hurricane/typhoons and then tornadoes. The economic consequences was calculated by aggregating the property and crop damage costs associeted by weather event.
+
+
 ## Data Processing
 
 Setup
@@ -57,7 +61,7 @@ NOAA[NOAA$CROPDMGEXP == "B", ]$cd <- NOAA[NOAA$CROPDMGEXP == "B", ]$CROPDMG * 10
 
 
 ```
-
+# Results
 
 ## Number of fatalities for each Event Type
 
